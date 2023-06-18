@@ -9,7 +9,6 @@ export const Single = props => {
 	const [description, setDescription]= useState({})
 	const [properties, setProperties] = useState({});
 
-
 	const getDescription = () => {
 		fetch('https://www.swapi.tech/api/people/' + params.theid)
 		  .then((res) => res.json())

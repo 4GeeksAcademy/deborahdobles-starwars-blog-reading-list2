@@ -8,7 +8,6 @@ const CardCharacter = (props) => {
       setButtonColor("orange");
     
     };
-    
     const { store, actions } = useContext(Context);
     console.log(actions.changeMessage)
 

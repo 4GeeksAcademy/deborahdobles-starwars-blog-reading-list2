@@ -29,7 +29,7 @@ const Home = () => {
             hair={character.hair_color}
             eyes={character.eye_color}
             uid={index + 1}
-			img={`https://starwars-visualguide.com/assets/img/characters/${index +1 }.jpg`}
+			img={`https://starwars-visualguide.com/assets/img/characters/${index + 1 }.jpg`}
           />
         ))}
 		      </div>
@@ -48,7 +48,7 @@ const Home = () => {
           climate={planet.climate}
           terrain={planet.terrain}
           uidplanet={index + 1}
-          img={`https://starwars-visualguide.com/assets/img/planets/${index +1 }.jpg`}
+          img={`https://starwars-visualguide.com/assets/img/planets/${index + 1 }.jpg`}
           />
         ))}
         </div>
@@ -68,7 +68,7 @@ const Home = () => {
             length={vehicle.length}
             crew={vehicle.crew}
             uidvehicle= {index + 1}
-			img={`https://starwars-visualguide.com/assets/img/vehicles/${index +1 }.jpg`}
+			img={`https://starwars-visualguide.com/assets/img/vehicles/${index + 1 }.jpg`}
           />
         ))}
 		    </div>

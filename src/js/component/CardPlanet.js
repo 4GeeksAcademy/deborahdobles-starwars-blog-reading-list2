@@ -10,6 +10,7 @@ const CardPlanet = (props) => {
     };
     const { store, actions } = useContext(Context);
      console.log(actions.changeMessage)
+     
     return (
       <div className="card" style={{ width: "20%", display: "inline-block" }}>
         <img src={props.img} className="card-img-top" alt="..." />
