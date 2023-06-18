@@ -17,11 +17,16 @@ export const Demo = () => {
 							key={index}
 							className="list-group-item d-flex justify-content-between"
 							style={{ background: item.background }}>
-							<Link to={"/single/" + index}>
+							<Link to={"/Single/" + index}>
 								<span>Link to: {item.title}</span>
 							</Link>
-							{// Conditional render example
-							// Check to see if the background is orange, if so, display the message
+							<Link to={"/Singleplanet/" + index}>
+								<span>Link to: {item.title}</span>
+							</Link>
+							<Link to={"/SingleVehicle/" + index}>
+								<span>Link to: {item.title}</span>
+							</Link>
+							{
 							item.background === "orange" ? (
 								<p style={{ color: item.initial }}>
 									Check store/flux.js scroll to the actions to see the code
@@ -36,7 +41,7 @@ export const Demo = () => {
 			</ul>
 			<br />
 			<Link to="/">
-				<button className="btn btn-primary">Back home</button>
+				<button className="btn btn-primary">Go Back Home</button>
 			</Link>
 		</div>
 	);
