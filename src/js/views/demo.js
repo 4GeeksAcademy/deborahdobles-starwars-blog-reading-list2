@@ -23,9 +23,6 @@ export const Demo = () => {
 							<Link to={"/Singleplanet/" + index}>
 								<span>Link to: {item.title}</span>
 							</Link>
-							<Link to={"/SingleVehicle/" + index}>
-								<span>Link to: {item.title}</span>
-							</Link>
 							{
 							item.background === "orange" ? (
 								<p style={{ color: item.initial }}>

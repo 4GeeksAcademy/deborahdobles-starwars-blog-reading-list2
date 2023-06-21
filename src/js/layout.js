@@ -6,7 +6,6 @@ import  Home  from "./views/home.js";
 import { Demo } from "./views/demo";
 import { Single } from "./views/Single";
 import { SinglePlanet } from "./views/Singleplanet";
-import { Singlevehicle } from "./views/Singlevehicle";
 
 import injectContext from "./store/appContext";
 
@@ -29,7 +28,6 @@ const Layout = () => {
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/Single/:theid" element={<Single />} />
 						<Route path="/Singleplanet/:theid" element={<SinglePlanet />} />
-						<Route path="/SingleVehicle/:theid" element={<Singlevehicle />} />
 					</Routes>
 					<Footer />
 				</ScrollToTop>
